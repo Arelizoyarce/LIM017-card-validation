@@ -567,4 +567,3 @@ Se me recomendó utilizar cajas para encerrar la información de las distintas s
 * [x] Uso de display para implementar una nueva vista.
 * [x] Uso del addEventListener en lugar de 'onclick'.
 * [x] Usar nuevos atributos en CSS.
-
