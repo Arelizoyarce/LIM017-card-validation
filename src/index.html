@@ -6,9 +6,70 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+<div id="screen1">
+    <button class= "login"> Registrate </button>
+    <button class= "signin"> Iniciar sesión </button>
+    <h1 class="boing">Boing</h1>
+    <main>
+      <h1>¿Estás listx para hacer rebote? </h1>
+      <p> <strong> ¡EMPIEZA YA!</strong><br> 
+        <span style="font-size: 30px;">Únete a una de nuestras suscripciones mensuales <br> y obten mayor beneficio</span></p>
+    </main>
+  <div class=" boxgold">
+      <h1>Suscripción <br>
+      Gold</h1>
+      <p> <span style="font-size: 30px;">S/ </span>
+       <span style="font-size: 75px;">12 </span>
+      </p>
+      <ul style="text-align: left; margin-left: 35px; font-size: 20px;" >
+        <li>Chats ilimitados</li>
+        <li>Boings ilimitados</li>
+        <li>3 super Boings semanales</li>
+      </ul>
+      <button id="buy1">Comprar</button>
+      <br>
+ </div>
+ <div class="boxplatinum">
+      <h1>Suscripción <br>
+      Platinum</h1>
+      <p> <span style="font-size: 30px;"> S/</span>
+        <span style="font-size: 75px;">19</span>
+      </p>
+      <ul style="text-align: left; margin-left: 35px; font-size: 17px;">
+        <li>Sin anuncios</li>
+        <li>Chats ilimitados</li>
+        <li>Boings ilimitados</li>
+        <li>5 super Boings semanales</li>
+        <li>Ver quién te dio Boing</li>
+      </ul>
+    <button id="buy">Comprar</button>
+ </div>
+</div>
+
+    <div id="screen2" style="display: none;">
+      <h1 class="boing">Boing</h1>
+      <div class="cardnumberhere">
+      <h1>Ingresa los datos de tu tarjeta:</h1>
+    <br>
+      <p>Número de trajeta de crédito:</p>
+        <input type="text" name="number" class="cardNumber" id="creditCardNumber">
+        <p id="menssagevalidator" style="color: red;"></p>
+    <br>
+      <p>Fecha de vencimiento:</p>
+      <input type="text" class="expirationDate" id="InExpirationDte" placeholder="Ejem. 12/06">
+      <p id="expirationDateMenssage" style="color: red;" ></p>
+    <br>
+      <p>CVV:</p>
+      <input type="text" class="securityCodes" id="InCVV" placeholder="Ejem. 123">
+      <p id="segurityCodesMenssage" style="color: red;"></p>
+    <br>
+      <button class="validator" id="validarbtn" >Validar datos</button>
+    <br>
+      <h1 id="menssageValidorInvalid"></h1>
+    </div>
+    </div>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
+  
