@@ -33,9 +33,6 @@ const validator = {
       }
      
   },
-
-  
-
   maskify: function (creditCardNumber){
 
       let hideDigits= creditCardNumber.slice(0, -4).replace(/./g, '#');
@@ -44,8 +41,6 @@ const validator = {
       return creditCardNumber;
       
   },
-  
 };
-
 export default validator;
 
