@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;800;900&display=swap');
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: cornsilk;
+    background: url(Pictures/FONDOAZUL3.png);
+    background-size: 110%;
+}
+
+div .signin {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    background-color: rgb(105, 119, 245);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+        left: 80%;
+        
+}
+
+.login{
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+        left: 80%;
+}
+
+.boing{
+    font-size: 160px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 60px;
+    text-align: center;
+}
+main p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#buy1{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 25px;
+    background-color: rgb(59, 214, 253);
+    border:none;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+#buy{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 25px;
+    background-color: rgb(59, 214, 253);
+    border:none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.boxgold {
+    width: 350px;
+    height: 410px;
+        padding: 5px;
+        padding-top: 35px;
+        margin: 10px;
+        border-radius: 30px;
+        background-color: aliceblue;
+        font-size: 20px;
+        color: rgb(74, 199, 248) ;
+        text-align: center;
+        position: absolute;
+            left: 20%;
+            top: 70%;
+}
+
+.boxplatinum {
+    width: 350px;
+    height: 410px;
+        padding: 5px;
+        padding-top: 35px;
+        margin: 10px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        background-color: aliceblue;
+        font-size: 20px;
+        color: rgb(74, 199, 248) ;
+        text-align: center;
+        position:absolute;
+            left: 55%;
+            top: 70%
+}
+
+.cardnumberhere{
+    width: 500px;
+    height: 500px;
+        background-color: rgb(242, 245, 247);
+        padding: 20px;
+        border-radius: 30px;
+        font-size: 15px;
+        color:black;
+    position: absolute;
+    left: 32%;
+     
+}
+
+.cardNumber{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: rgb(231, 229, 229);
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.expirationDate{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: rgb(231, 229, 229);
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.securityCodes{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: rgb(231, 229, 229);
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.validator{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 25px;
+    background-color: rgb(59, 214, 253);
+    border:none;
+    border-radius: 30px;
+    margin-top: 30px; 
+}
